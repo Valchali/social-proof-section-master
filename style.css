@@ -4,11 +4,37 @@ body{
     /* background-repeat: no-repeat; */
     background-position: top 0, bottom 0;
     align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 700px;
+    color:var(--Very-Dark-Magenta);
+    width: 70%;
 }
 
 
+h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--White);
+}
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--White);
+    line-height: 1.5rem;
+}
+
+main {
+    margin: 5rem;
+    padding: 5rem;
+}
+
 .ontop{
-    flex-direction: column;
+    flex-direction: row;
+    display: flex;
 }
 
 .leftside{
@@ -31,6 +57,7 @@ body{
     font-size: 2.5rem;
     color:hsl(300, 43%, 22%);
     text-align: left;
+    line-height: 1.5rem;
 }
 
 
