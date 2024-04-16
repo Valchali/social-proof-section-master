@@ -10,7 +10,7 @@ body{
 h1{
     font-size: 3.5rem;
     font-weight: 700px;
-    color:var(--Very-Dark-Magenta);
+    color:  hsl(300, 43%, 22%);
     width: 70%;
 }
 
@@ -48,20 +48,110 @@ main {
 .introduction{
     text-align: left;
        width: 100%;
-       padding: 0 0.7rem;
-       box-sizing: border-box;
        color:hsl(300, 43%, 22%);
 }
 
-.ontop .leftside h1 {
-    font-size: 2.5rem;
-    color:hsl(300, 43%, 22%);
-    text-align: left;
-    line-height: 1.5rem;
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: 1rem;
+}
+
+.rightside > figure {
+    .rightside > figcaption:nth-child(1) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.right > figcaption:nth-child(2) {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.rightside > figcaption:nth-child(3) {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightside > figcaption > figure {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 1rem 2rem;
+    background-color: var(--Light-Grayish-Magenta);
+    width: 65%;
 }
 
 
 
+.below {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 0;
+    gap: 2rem;
+}
+
+.below > article {
+    background-color: var(--Very-Dark-Magenta);
+    padding: 2rem 1.7rem;
+    border-radius: 0.6rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.below > article:nth-child(1) {
+    margin-bottom: 4rem;
+    margin: 0;
+}
+
+.below > article:nth-child(2) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin: 0;
+}
+
+.below > article:nth-child(3) {
+    margin-top: 4rem;
+    margin: 0;
+
+}
+
+.below > article > figure {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.below > article > figure img {
+    border-radius: 5rem;
+    width: 3rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+
+}
+
+.verified {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--Soft-Pink);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
 
 
 
