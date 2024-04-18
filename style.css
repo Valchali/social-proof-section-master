@@ -119,18 +119,18 @@ main {
 
 .below > article:nth-child(1) {
     margin-bottom: 4rem;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .below > article:nth-child(2) {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .below > article:nth-child(3) {
     margin-top: 4rem;
-    margin: 0;
+    /* margin: 0; */
 
 }
 
@@ -157,9 +157,8 @@ main {
 .verified {
     font-size: 1.3rem;
     font-weight: 500;
-    color: var(--Soft-Pink);
+    color:hsl(333, 80%, 67%);
     font-size: 1.1rem;
-    font-weight: 400;
 }
 
 
