@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 body{
     background-image: url(images/bg-pattern-top-desktop.svg);
     background-image: url(images/bg-pattern-bottom-desktop.svg);
@@ -65,16 +71,15 @@ main {
     gap: 1rem;
 }
 
-.rightside > figure {
-    .rightside > figcaption:nth-child(1) {
+.rightside > figure >figcaption:nth-child(1){
         width: 100%;
         height: auto;
         display: flex;
         justify-content: flex-start;
     }
-}
 
-.right > figcaption:nth-child(2) {
+
+.rightside > figcaption:nth-child(2) {
     width: 100%;
     height: auto;
     display: flex;
@@ -94,6 +99,24 @@ main {
     padding: 1rem 0 1rem 2rem;
     background-color: var(--Light-Grayish-Magenta);
     width: 65%;
+}
+
+.rightside figure {
+    background-color: #f0f0f0; /* Replace #f0f0f0 with your desired background color */
+    padding: 5px; /* Add padding for spacing */
+    margin-bottom: 5px; /* Add margin-bottom for spacing between figures */
+    display: flex;
+    align-items: center;
+}
+
+.rightside figure img {
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.rightside figcaption {
+    color: hsl(300, 43%, 22%);/* Adjust the color as needed */
+    font-weight: 100px;
+    font-size: 1.3rem;
 }
 
 
@@ -123,13 +146,14 @@ main {
 }
 
 .below > article:nth-child(2) {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+     margin-top: 2rem;
+     margin-bottom: 2rem; 
     /* margin: 0; */
 }
 
 .below > article:nth-child(3) {
     margin-top: 4rem;
+    /* margin-bottom: 3rem; */
     /* margin: 0; */
 
 }
@@ -154,7 +178,7 @@ main {
 
 }
 
-.verified {
+.buyer {
     font-size: 1.3rem;
     font-weight: 500;
     color:hsl(333, 80%, 67%);
@@ -162,7 +186,17 @@ main {
 }
 
 
+.below article p:not(.buyer) {
+    color: white;
+}
+.below article h2 {
+    color: white;
+}
 
+
+.below article .profile p.buyer {
+    margin-bottom: 1px; /* Adjust as needed */
+}
 
 
 
