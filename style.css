@@ -57,8 +57,9 @@ main {
 .introduction{
     margin-top: auto;
     text-align: left;
-       width: 100%;
-       color:hsl(300, 43%, 22%);
+       width: 85%;
+       color:hsl(302, 21%, 64%);
+       /* font-size: 50px; */
 }
 
 
@@ -91,7 +92,12 @@ main {
     height: auto;
     display: flex;
     justify-content: flex-end;
+    
 }
+
+
+
+
 
 .rightside > figcaption > figure {
     display: flex;
@@ -101,13 +107,17 @@ main {
     width: 65%;
 }
 
-.rightside figure {
-    background-color: #f0f0f0; /* Replace #f0f0f0 with your desired background color */
-    padding: 5px; /* Add padding for spacing */
+.rightside figure   {
+    background-color: hsl(300, 24%, 96%); /* Replace #f0f0f0 with your desired background color */
+    padding: 10px; /* Add padding for spacing */
     margin-bottom: 5px; /* Add margin-bottom for spacing between figures */
     display: flex;
     align-items: center;
+    font-family: League Spartan;
+    width: fit-content;
+    border-radius: 5px 5px 5px 5px;
 }
+
 
 .rightside figure img {
     margin-right: 15px; /* Adjust the margin as needed */
@@ -115,8 +125,10 @@ main {
 
 .rightside figcaption {
     color: hsl(300, 43%, 22%);/* Adjust the color as needed */
-    font-weight: 100px;
-    font-size: 1.3rem;
+    /* font-weight: 700px; */
+    font-size: 15px;
+    font-weight: bold;
+    /* border-radius: 16px 16px 16px 16px; */
 }
 
 
