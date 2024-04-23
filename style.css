@@ -8,6 +8,7 @@ body {
     background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
     background-position: top 0, bottom 0;
     align-items: center;
+
 }
 
 h1 {
@@ -33,6 +34,8 @@ p {
 main {
     margin-top: auto;
     padding: 5rem;
+    /* height: 100vh; */
+    margin-bottom: 100px;
 }
 
 .ontop {
@@ -92,7 +95,7 @@ main {
 }
 
 .rightside figure.shift1 {
-    margin-left: 35px;
+    margin-left: 30px;
 }
 
 .rightside figure.shift2 {
@@ -148,7 +151,7 @@ main {
 }
 
 .buyer {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: hsl(333, 80%, 67%);
 }
@@ -163,4 +166,67 @@ main {
 
 .below article .profile p.buyer {
     margin-bottom: 1px;
+}
+
+
+/* footer { */
+    /* position: inline-block; */
+    /* bottom:auto; */
+    /* width: 100%; */
+    /* background-color: #f0f0f0; Adjust the background color as needed  */
+    /* padding: 20px; Adjust the padding as needed */
+    /* margin-top: 50px; */
+/* } */
+
+
+ 
+/* .attribution { */
+    /* font-size: 15px; */
+    /* text-align: center; */
+    /* color:hsl(300, 43%, 22%); */
+  /* } */
+
+  /* .attribution a { */
+    /* font-size: 15px; */
+    /* color: var(--Very-Dark-Magenta); */
+   /* } */ 
+ 
+
+  /* Media queries */
+@media screen and (max-width: 375px) {
+    main {
+        padding: 2rem;
+    }
+    h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+    .introduction {
+        width: 100%;
+    }
+    .rightside figure {
+        margin-left: 0;
+    }
+    .rightside figure.shift1 {
+        margin-left: 0;
+    }
+    .rightside figure.shift2 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    h1 {
+        font-size: 4rem;
+        width: 70%;
+    }
+    .introduction {
+        width: 85%;
+    }
+    .rightside figure.shift1 {
+        margin-left: 50px;
+    }
+    .rightside figure.shift2 {
+        margin-left: 120px;
+    }
 }
