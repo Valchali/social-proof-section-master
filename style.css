@@ -222,8 +222,20 @@ main {
     .below{
         /* display: flex; */
         flex-direction: column;
-        gap: 1em;
     }
+
+    .rightside figure {
+        display: block;
+        text-align: center;
+      }
+    
+      .rightside figcaption {
+        margin-top: 5px;
+      }
+    
+
+
+
 
 }
 
