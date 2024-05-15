@@ -193,7 +193,7 @@ main {
  
 
   /* Media queries */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     main {
         padding: 2rem;
     }
@@ -213,6 +213,18 @@ main {
     .rightside figure.shift2 {
         margin-left: 0;
     }
+    
+    .ontop {
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .below{
+        /* display: flex; */
+        flex-direction: column;
+        gap: 1em;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
